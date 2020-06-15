@@ -1,7 +1,7 @@
 {application,stats,
              [{applications,[kazoo,kazoo_amqp,kazoo_caches,kazoo_stdlib,
                              kernel,lager,snmp,stdlib]},
-              {description,"Stats - Kazoo"},
+              {description,"Stats: KAZOO statistics to verify the GOAT"},
               {env,[{is_kazoo_app,true}]},
               {mod,{stats_app,[]}},
               {modules,[]},
